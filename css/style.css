@@ -1,0 +1,9 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.cabecalho-logo-size {
+    width: 20em;
+}
