@@ -1,9 +1,64 @@
-.cabecalho {
-    display: flex;
-    justify-content: space-around;
-    margin: 1em;
+body {
+  background-color: rgb(237, 28, 36);
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
-.cabecalho-logo-size {
-    width: 20em;
+.cabecalhoPrincipal {
+  background-color: rgb(168, 19, 24);
 }
+
+.cabecalhoPrincipal .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.cabecalhoPrincipal-titulo {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 15%;
+    text-align: center;
+}
+
+.cabecalhoPrincipal-nav {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.cabecalhoPrincipal-nav-itens {
+  margin-left: 1em;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.5s all;
+}
+
+.cabecalhoPrincipal-nav-itens:hover {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+    box-sizing: border-box;
+    color: white;
+}
+
+.conteudoPrincipal {
+    margin: 3em 0;
+}
+
+.conteudoPrincipal-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em 0;
+}
+
+
+
