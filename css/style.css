@@ -108,7 +108,7 @@ main {
 }
 
 /*Parte Mobile..............*/
-@media (max-width: 940px) {
+@media (max-width: 960px) {
   .cabecalhoPrincipal .container {
     display: flex;
     flex-wrap: wrap;
@@ -137,6 +137,20 @@ main {
     order: -1;
   }
 
+  .conteudoPrincipal-sabores-pizzas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    margin: 2% auto;
+    height: 8em;
+  }
+}
+
+
+/*Parte Mobile..............*/
+@media (max-width: 700px) {
+ 
   .conteudoPrincipal-sabores {
     flex-direction: column;
   }
