@@ -6,7 +6,7 @@ body {
 
 .cabecalhoPrincipal {
   background-color: white;
-  box-shadow: 0px 2px 20px 5px rgb(0 0 0 / 40%);
+  box-shadow: 0px 5px 20px 10px rgb(0 0 0 / 70%);
 }
 
 .cabecalhoPrincipal .container {
@@ -42,6 +42,7 @@ body {
   font-size: 28px;
   font-weight: bold;
   text-decoration: underline;
+  color: rgb(237, 28, 36);
 }
 
 main {
@@ -50,7 +51,19 @@ main {
 }
 
 .conteudoPrincipal {
-  margin: 3em 0;
+  position: relative;
+}
+
+.conteudoPrincipal::before {
+  content: "";
+  background: transparent url(/imagens/background.webp);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.4;
 }
 
 .conteudoPrincipal .container {
@@ -61,7 +74,7 @@ main {
   font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 2em 0;
+  padding: 2em 0;
 }
 
 .conteudoPrincipal-sabores {
@@ -75,9 +88,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   width: 22%;
   margin: 2% auto;
-  height: 10em;
+  height: 15em;
   padding: 1%;
   box-sizing: border-box;
   border: 3px solid rgb(168, 19, 24);
@@ -92,20 +106,39 @@ main {
   border-style: dashed;
 }
 
+.imagemPizza {
+  display: flex;
+  justify-content: center;
+}
+
+.textosPizza {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fotoDaPizza {
+  width: 25%;
+}
+
 .nomeDaPizza {
   font-weight: bold;
   text-transform: uppercase;
   color: rgb(237, 28, 36);
   font-size: 22px;
+  margin-top: 1em;
 }
 
 .descricaoDaPizza {
   opacity: 80%;
+  margin-top: 1em;
 }
 
 .valorDaPizza {
   font-weight: bold;
   font-size: 18px;
+  margin-top: 1em;
 }
 
 /*Parte Mobile..............*/
@@ -126,7 +159,7 @@ main {
     width: 40%;
     margin: auto;
     display: block;
-   }
+  }
 
   .cabecalhoPrincipal-nav {
     display: flex;
@@ -150,24 +183,7 @@ main {
     justify-content: space-around;
     width: 30%;
     margin: 2% auto;
-    height: 8em;
   }
 }
 
 
-/*Parte Mobile..............*/
-@media (max-width: 700px) {
- 
-  .conteudoPrincipal-sabores {
-    flex-direction: column;
-  }
-
-  .conteudoPrincipal-sabores-pizzas {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 75%;
-    margin: 2% auto;
-    height: 8em;
-  }
-}
