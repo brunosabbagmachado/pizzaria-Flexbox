@@ -56,7 +56,7 @@ main {
 
 .conteudoPrincipal::before {
   content: "";
-  background: transparent url(/imagens/background.webp);
+  background: transparent url(../imagens/background.webp);
   position: absolute;
   top: 0px;
   right: 0px;
