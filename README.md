@@ -2,17 +2,17 @@
 <h1 align="center">Pizzaria Flexbox</h1>
 
 <p align="center">
-    <img src="imagens/logo-pizzaria2.png" height="35%" width="35%">
+    <img src="./imagens/logo-pizzaria2.png" height="35%" width="35%">
 </p>
 
 <p align="center"> Site de uma Pizzaria criado para eu praticar meus estudos recentes de Flexbox. Acesse o projeto clicando <a href="https://brunosabbagmachado.github.io/pizzaria-Flexbox/">aqui</a>.</p>
 
 <p align="center">
-    <img src="imagens/CSS_HTML.png" height="10%" width="10%">
+    <img src="./imagens/CSS_HTML.png" height="10%" width="10%">
 </p>
 
 <p align="center">
-    <img src="imagens/apresentacao.gif" height="100%" width="100%">
+    <img src="./imagens/Pizzaria-Flexbox.gif" height="100%" width="100%">
 </p>
 
 # Tabela de conteúdos
@@ -46,13 +46,13 @@ O mais interessante de criar esse site foi perceber como o Flexbox facilita muit
 <h2 align="center">Computador</h2>
 
 <p align="center">
-    <img src="imagens/screenshot-pc.PNG">
+    <img src="./imagens/screenshot-pc.PNG">
 </p>
 
 <h2 align="center">Celular</h2>
 
 <p align="center">
-    <img src="imagens/screenshot-celular.PNG">
+    <img src="./imagens/screenshot-celular.PNG">
 </p>
 
 
