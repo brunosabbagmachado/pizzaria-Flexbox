@@ -46,13 +46,13 @@ O mais interessante de criar esse site foi perceber como o Flexbox facilita muit
 <h2 align="center">Computador</h2>
 
 <p align="center">
-    <img src="./imagens/screenshot-pc.PNG">
+    <img src="./imagens/screenshot-pc.png">
 </p>
 
 <h2 align="center">Celular</h2>
 
 <p align="center">
-    <img src="./imagens/screenshot-celular.PNG">
+    <img src="./imagens/screenshot-celular.png">
 </p>
 
 
