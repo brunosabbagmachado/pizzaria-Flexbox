@@ -103,7 +103,8 @@ main {
 
 .conteudoPrincipal-sabores-pizzas:hover {
   transform: scale(105%);
-  border: 4px solid rgb(168, 19, 24);;
+  border: 4px solid rgb(168, 19, 24);
+  cursor: pointer;
 }
 
 .textosPizza {
